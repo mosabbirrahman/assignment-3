@@ -20,7 +20,7 @@
       </script>
 </head>
 <body>
-    <section class="px-20 border-4 rounded-4">
+    <section class="px-20 border-4 rounded-4 pb-10">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div>
@@ -31,8 +31,8 @@
           <a class=" text-xl">Rinterio</a>
           </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+        <div class="navbar-center hidden lg:block hiden">
+          <ul class="menu menu-horizontal px-1 ">
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a href="">Blog</a></li>
@@ -40,14 +40,18 @@
             <li><a href="">Contact us</a></li>
           </ul>
         </div>
-       
         <div class="navbar-end">
-        <div class="md:mr-10">
+        <div class="md:mr-10 hidden lg:block">
           <i class="fa-solid fa-magnifying-glass p-4 rounded-full "></i>
           <i class="fa-solid fa-cart-shopping rounded-full t"></i>
-        </div>
-          <a class=" btn btn-warning rounded-full "> <i class="fa-solid fa-arrow-right-long  p-2 rounded-full bg-black -rotate-45 text-white "></i>Book Consult</a>
+        </div >
+        <div class="">
+          <a class=" btn btn-warning rounded-full hidden lg:block p-2"> <i class="fa-solid fa-arrow-right-long  p-2 rounded-full bg-black -rotate-45 text-white "></i>Book Consult</a>
+          </div>
         </div> 
+        <div class="gap-4 ">
+        <i class="fa-solid fa-list lg:hidden"></i>
+        </div>
       </div>
       <!-- banner -->
      <div class="flex justify-center md:1">
@@ -68,7 +72,7 @@
 
 <div class="bg-base-300 md:flex gap-3 p-4">
   <div class="">
-    <div class="pr-2 ">
+    <div class="p- -pt-4 ">
       <img src="B10-Assignment-03/assets/Vector.png" alt="">
     </div>
     <button class="rounded-full bg-white pl-4 pr-4"><i class="fa-solid fa-arrow-right"></i> About us</button>
@@ -103,8 +107,6 @@
   </div>
 </div>
 </div>
-
-
   <div class="">
     <img class="pt-5" src="B10-Assignment-03/assets/Rectangle.png" alt="">
   </div>
